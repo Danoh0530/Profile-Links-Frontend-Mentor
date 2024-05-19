@@ -1,20 +1,21 @@
 body {
     background-color: hsl(0, 0%, 8%);
     color: white;
-    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile {
     width: 280px;
-    margin-inline: auto;
-    margin-top: 80px;
     padding-bottom: 12px;
     box-sizing: border-box;
     border-radius: 10px;
     background-color: hsl(0, 0%, 12%);
 
     text-align: center;
-    font-family: system-ui, sans-serif;;
+    font-family: system-ui, sans-serif;
 }
 
 img {
@@ -38,12 +39,12 @@ img {
 
 .bio {
     font-size: 11px;
-    margin: 14px 0 10px 0;
+    margin: 14px 0 20px 0;
     color: #C0C0C0;
 }
 
 .links {
-    width: 220px;
+    width: 200px;
     display: block;
     margin: 12px auto;
     padding: 10px;
@@ -60,3 +61,12 @@ a:active {
     color: black;
     font-weight: 700;
 }
+
+/* You can center your content using Flexbox if you apply these to the body tag: 
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
